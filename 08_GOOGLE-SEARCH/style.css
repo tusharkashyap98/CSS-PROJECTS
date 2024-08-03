@@ -1,0 +1,163 @@
+/* *{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-color:  #202124 ;
+    color: #e8eaed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+input{
+    max-width: 640px;
+    width: 100%;
+     color: white;
+    font-size: 1rem;
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 22px;
+    opacity: 0.5;
+}
+
+.search-bar{
+     max-width: 650px;
+      position: relative;
+}
+.search-icon{
+     height: 20px;
+     position: absolute;
+     top: 11px;
+     left: 20px;
+}
+
+input:hover{
+ opacity: 1;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202124;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.container {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 16px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-menu{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+.search-bar {
+  border: 2px solid #5f6368;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  margin-top: 32px;
+}
+
+.search-icon,
+.close-icon {
+  width: 24px;
+}
+
+.close-icon {
+  display: none;
+}
+
+.search-bar:focus-within .close-icon {
+  display: block;
+}
+.search-bar input {
+  color:  inherit;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.search-bar:hover,
+.search-bar:focus-within {
+  background-color: #303134;
+  border-color: #303134;
+  box-shadow: 0px 0px 4px 2px #1f2022;
+}
+.search-bar:focus-within{
+    border-radius: 24px 24px 0 0;
+}
+.suggestion-menu{
+    border-radius: 0 0 24px 24px;
+    background-color: #303134;
+    box-shadow: 0px 6px 4px 2px #1f2022;
+    padding: 0 0 8px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-border{
+    border-top: 1px solid #5F6368;
+    margin-inline: 24px ;
+    margin-bottom: 8px;
+}
+.suggestion-menu p {
+  margin: 0;
+  padding: 8px 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-bar:focus-within + .suggestion-menu{
+    display: block;
+}
+.suggestion-menu p:hover{
+    background-color: #3C4043;
+    cursor: pointer;
+}
+
+.doodle-shapes{
+    position: fixed;
+    right: 32px;
+    bottom: 0;
+}

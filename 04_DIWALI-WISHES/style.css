@@ -1,0 +1,203 @@
+
+
+
+body{
+    margin: 0;
+    font-family: "Salsa", cursive;
+}
+
+.jhalar{
+    width: 220px;
+    margin-bottom: -190px;
+}
+.hero-section{
+    /* min-height: 100vh; */
+    /* background-color: #F99501; */
+    background-image: url(/images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section p {
+    font-size: 46px;
+    max-width: 550px;
+    /* margin-left: 15rem; */
+    /* margin-top: -2rem; */
+}
+
+.paragraph-and-audio{
+    margin-left: 15rem;
+}
+
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #fbd8a4;
+     }
+
+     .audio-container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #fbd8a4;
+       /* max-width: 500px; */
+       max-width: max-content;
+       padding-left: 20px;
+       border-radius: 45px;
+     }
+
+     .lakshmi-ganesha-section{
+        background-color: #F99501;
+        padding-block: 1rem;
+        padding-inline: 1rem;
+     }
+
+     .laxshmi-ganesha-img{
+        max-width: 900px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        
+     }
+
+
+     .horizontal-divider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        gap: 12px;
+        margin-inline: auto;
+        margin-bottom: 2rem;
+     }
+     .horizontal-line{
+        width: 468px;
+        height: 2px;
+        background-color: #FBD8A4;
+        
+     }
+
+     .circle{
+        height: 10px;
+        width: 10px;
+        background-color: #FBD8A4;
+        border-radius: 100%;
+        flex-shrink: 0;
+     }
+
+     .lakshmi-ganesha-section h2{
+        font-family: 'Style Script',cursive;
+        font-size: 54px;
+         font-weight: 400;
+         text-align: center;
+     }
+     
+     .white-card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+     }
+
+
+     .white-card{
+        background-color: white;
+        max-width: 520px;
+        padding: 4rem;
+        border-radius: 20px;
+     }
+
+     .white-card P{
+        font-size: 2rem;
+     }
+
+     .little-girl{
+        max-width: 260px;
+        margin-left: -5rem;
+     }
+      
+     .lakshmi-ganesha-card{
+        display: flex;
+        max-width: 772px;
+        /* max-width: 1264px; */
+        background-color: white;
+        padding:4rem;
+        border-radius: 24px;
+        justify-content: center;
+         align-items: center;
+          margin-inline: auto;
+     }
+     .lakshmi-ganesha-card img{
+        width: 50%;
+     }
+
+     /* .thnakyou-text p {
+        font-family: "Salsa", cursive;
+        font-size: 24px;
+        font-weight: 24px   ;
+     } */
+
+     .thnakyou-text{
+        max-width: 900px;
+        margin-inline: auto;
+        
+     }
+     .thnakyou-text h2{
+         text-align: left;
+     }
+
+     .my-name{
+        text-align: right;
+        font-size: 14px;
+     }
+
+
+     @media (max-width: 840px){
+        .first-deepak{
+            display: block;
+            margin-left: auto;
+        }
+        .second-deepak,
+        .playing-music,
+        .Soulful-music{
+            display: none;
+        }
+        .paragraph-and-audio{
+            margin-left: 1rem;
+        }
+        .jhalar{
+            margin-bottom: 0;
+        }
+        .hero-section p{
+            font-size: 32px;
+        }
+        .white-card P{
+            font-size: 1.25rem;
+        }
+        .little-girl{
+            max-width: 160px;
+        }
+        .lakshmi-ganesha-section h2{
+            font-size: 32px;
+         }
+         .white-card{
+            padding-block: 1rem;
+            padding-left: 2rem
+         }
+         .lakshmi-ganesha-card{
+            padding: 2rem;
+         }
+     }
+
+     @media (max-width: 540px){
+        .hero-section p{
+            font-size: 24px;
+        }
+        .first-deepak{
+            width: 100%;
+            max-width: 280px;
+        }
+        .white-card P{
+            font-size: 1rem;
+        }
+     }

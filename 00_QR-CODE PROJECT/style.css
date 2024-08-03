@@ -1,0 +1,40 @@
+body{
+    background-color: #D5E1EF;
+    min-height: 100vh;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.card{
+    position: absolute;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    inset: 0;
+    height: 470px;
+     width: 100%;
+     max-width: 302px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow:  0px 12px 20px 0px rgba(0, 0, 0, 10%);
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%;
+    transform: scale(-50% -50%); */
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+h2{
+    color: #212F4F;
+
+}
+p{
+    /* color: #CACEDB; */
+    color: hsl(220, 15%, 55%);
+
+}

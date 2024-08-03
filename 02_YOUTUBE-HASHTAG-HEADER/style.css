@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+   font-family: sans-serif;
+}
+
+.hashtag-header{
+    background-color: #065FD4;
+    color: white;
+    /* height: 200px; */
+    padding: 4rem;
+    background-image: url(/people/background.png);
+    background-size: 260px;
+    background-position-x: 100%;
+    background-position-y: -160px;
+    background-repeat: no-repeat;
+}
+
+.hashtag-header h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 4rem;   
+}
+
+.hashtag-header span{
+    font-size: 2rem;
+}
+
+.hashtag-header img{
+    width: 5rem;
+    height: 5rem;
+    border:  5px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+img {
+  margin-left: -3rem;
+}
+
+.images-container{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-self: flex-end;
+    vertical-align: middle;
+    margin-left: 52px
+}

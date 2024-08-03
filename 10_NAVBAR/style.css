@@ -1,0 +1,63 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    height: 82px;
+    background-color: #1D3557;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information{
+    width: 330px;
+    height: 82px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #d3d3d3;
+}
+
+.nav-bar{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information .about,.gallery,.contact{
+    width: 110px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+ .about:hover{
+    background-color: rgba(129, 214, 245, 0.493);
+       cursor: pointer;
+ }
+ .gallery:hover{
+      background-color: rgba(129, 214, 245, 0.493);
+  cursor: pointer;
+ }
+ .contact:hover{
+     background-color: rgba(129, 214, 245, 0.493);
+       cursor: pointer;
+ }
